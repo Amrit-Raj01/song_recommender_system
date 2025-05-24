@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Badtameez Dil",
+        "movie": "Yeh Jawaani Hai Deewani",
+        "singer": "Benny Dayal",
+        "year": 2013,
+        "mood": "happy"
+    },
+    {
+        "title": "Gallan Goodiyaan",
+        "movie": "Dil Dhadakne Do",
+        "singer": "Various Artists",
+        "year": 2015,
+        "mood": "happy"
+    },
+    {
+        "title": "Tum Hi Ho",
+        "movie": "Aashiqui 2",
+        "singer": "Arijit Singh",
+        "year": 2013,
+        "mood": "sad"
+    },
+    {
+        "title": "Pehla Nasha",
+        "movie": "Jo Jeeta Wohi Sikandar",
+        "singer": "Udit Narayan",
+        "year": 1992,
+        "mood": "romantic"
+    },
+    {
+        "title": "Malang",
+        "movie": "Malang",
+        "singer": "Ved Sharma",
+        "year": 2020,
+        "mood": "energetic"
+    }
+]
