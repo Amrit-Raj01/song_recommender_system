@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bollywood Mood Song Recommender</title>
+    <title>Bollywood Mood Magic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>🎵 Bollywood Mood Recommender</h1>
+        <h1>Bollywood Mood Magic</h1>
+        <p class="tagline">Discover perfect Hindi songs for every emotion</p>
+        
         <div class="mood-buttons">
             <button onclick="recommendSongs('happy')">Happy 😊</button>
             <button onclick="recommendSongs('sad')">Sad 😢</button>
             <button onclick="recommendSongs('romantic')">Romantic ❤️</button>
             <button onclick="recommendSongs('energetic')">Energetic ⚡</button>
         </div>
+        
         <div id="results" class="song-list"></div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
