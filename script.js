@@ -1,35 +1,46 @@
-// ... (keep existing SongRecommender class code)
-
-function recommendSongs(mood) {
-    const results = recommender.recommend(mood);
-    const container = document.getElementById('results');
-    
-    if (results.length === 0) {
-        container.innerHTML = `<p class="no-results">No songs found for ${mood} mood</p>`;
-        return;
+class SongRecommender {
+    constructor() {
+        this.songs = [
+            // Paste ALL your songs from songs.json here
+            // Example:
+            {
+                "title": "Badtameez Dil",
+                "movie": "Yeh Jawaani Hai Deewani",
+                "singer": "Benny Dayal",
+                "year": 2013,
+                "mood": "happy"
+            },
+            // ... add all other songs manually
+        ];
     }
 
-    container.innerHTML = results.map(song => `
-        <div class="song-card">
-            <div class="song-poster">${getEmoji(mood)}</div>
-            <div class="song-info">
-                <div class="song-title">${song.title}</div>
-                <div class="song-movie">${song.movie}</div>
-                <div>
-                    <span class="song-year">${song.year}</span>
-                    <span style="float:right">🎤 ${song.singer}</span>
-                </div>
-            </div>
-        </div>
-    `).join('');
+    recommend(mood) {
+        return this.songs.filter(song => song.mood === mood);
+    }
 }
 
-function getEmoji(mood) {
-    const emojis = {
-        happy: '😊',
-        sad: '😢',
-        romantic: '❤️',
-        energetic: '⚡'
-    };
-    return emojis[mood] || '🎵';
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', () => {
+    window.recommender = new SongRecommender();
+});
+
+function recommendSongs(mood) {
+    const results = window.recommender.recommend(mood);
+    const container = document.getElementById('results');
+    
+    container.innerHTML = results.length 
+        ? results.map(song => `
+            <div class="song-card">
+                <div class="song-poster">${getEmoji(mood)}</div>
+                <div class="song-info">
+                    <div class="song-title">${song.title}</div>
+                    <div class="song-movie">${song.movie}</div>
+                    <div>
+                        <span class="song-year">${song.year}</span>
+                        <span style="float:right">🎤 ${song.singer}</span>
+                    </div>
+                </div>
+            </div>
+        `).join('')
+        : `<p class="no-results">No ${mood} songs found. Try another mood!</p>`;
 }
