@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bollywood Mood Magic</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <div class="container">
-        <h1>Bollywood Mood Magic</h1>
-        <p class="tagline">Discover perfect Hindi songs for every emotion</p>
+        <header>
+            <h1>Bollywood Mood Magic</h1>
+            <p>Find the perfect Bollywood song for your mood</p>
+        </header>
+
+        <div class="controls">
+            <div class="mood-buttons">
+                <button class="mood-btn" data-mood="happy">😊 Happy</button>
+                <button class="mood-btn" data-mood="sad">😢 Sad</button>
+                <button class="mood-btn" data-mood="romantic">❤️ Romantic</button>
+                <button class="mood-btn" data-mood="energetic">⚡ Energetic</button>
+                <button class="random-btn">🎲 Random Song</button>
+            </div>
+            
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Search songs, movies or singers...">
+            </div>
+        </div>
+
+        <div id="stats" class="stats"></div>
         
-        <!-- Change your buttons to this format -->
-<div class="mood-buttons">
-    <button class="mood-btn" data-mood="happy">Happy 😊</button>
-    <button class="mood-btn" data-mood="sad">Sad 😢</button>
-    <button class="mood-btn" data-mood="romantic">Romantic ❤️</button>
-    <button class="mood-btn" data-mood="energetic">Energetic ⚡</button>
-</div>
-        
-        <div id="results" class="song-list"></div>
+        <div id="results" class="results"></div>
     </div>
-    
-    <script src="script.js"></script>
+
+    <script src="src/app/main.js" type="module"></script>
 </body>
 </html>
