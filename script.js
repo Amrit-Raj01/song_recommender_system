@@ -67,7 +67,7 @@ class SongRecommender {
             { id: 36, title: "Chak De India", artist: "Sukhwinder Singh", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-36.mp3", imageSrc: "https://i.pinimg.com/736x/ec/df/42/ecdf42a20da15a019df7198542368006.jpg" },
             { id: 37, title: "Bhaag Milkha Bhaag", artist: "Shankar Mahadevan", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-37.mp3", imageSrc: "https://i.pinimg.com/736x/7d/4b/f9/7d4bf92f0248a67f88893e86bda34023.jpg" },
             { id: 38, title: "Kar Har Maidan Fateh", artist: "Sukhwinder Singh", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-38.mp3", imageSrc: "https://i.pinimg.com/736x/4d/cb/b2/4dcbb2d888f04280c6d14bfa8db90a2c.jpg" },
-            { id: 39, title: "Dangal", artist: "Daler Mehndi", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-39.mp3", imageSrc: "images/workout.jpg" },
+            { id: 39, title: "Dangal", artist: "Daler Mehndi", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-39.mp3", imageSrc: "https://i.pinimg.com/736x/af/de/37/afde3751c64eab6a269ff37881f6a38e.jpg" },
             { id: 40, title: "Singh Is Kinng", artist: "Suzanne D'Mello", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-40.mp3", imageSrc: "images/workout.jpg" },
             
             // Devotional Songs
