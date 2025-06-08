@@ -31,7 +31,7 @@ class SongRecommender {
             { id: 6, title: "Mere Haath Mein", artist: "Sonu Nigam", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", imageSrc: "https://i.pinimg.com/736x/c8/9f/92/c89f920b5ac329d0695f5855b693b631.jpg" },
             { id: 7, title: "Ae Dil Hai Mushkil", artist: "Arijit Singh", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3", imageSrc: "https://i.pinimg.com/736x/cd/03/00/cd0300f56fe190ac4ea44fd145f66a7b.jpg" },
             { id: 8, title: "Tujhe Kitna Chahne Lage", artist: "Arijit Singh", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3", imageSrc: "https://i.pinimg.com/736x/3c/fc/ea/3cfcea67db2946a610a5c5f52488e1e4.jpg" },
-            { id: 9, title: "Tere Bina", artist: "A.R. Rahman", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3", imageSrc: "images/romantic.jpg" },
+            { id: 9, title: "Tere Bina", artist: "A.R. Rahman", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3", imageSrc: "https://i.pinimg.com/736x/5c/fa/05/5cfa05eb5115abc61cfcdf73b74e634b.jpg" },
             { id: 10, title: "Mere Bina", artist: "Pritam", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3", imageSrc: "images/romantic.jpg" },
             
             // Party Songs
