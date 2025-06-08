@@ -72,7 +72,7 @@ class SongRecommender {
             
             // Devotional Songs
             { id: 41, title: "Om Jai Jagdish Hare", artist: "Anuradha Paudwal", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-41.mp3", imageSrc: "https://i.pinimg.com/736x/f4/bc/d3/f4bcd385442a96eba33909b1c9a3a1c7.jpg" },
-            { id: 42, title: "Hanuman Chalisa", artist: "Hariharan", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-42.mp3", imageSrc: "images/devotional.jpg" },
+            { id: 42, title: "Hanuman Chalisa", artist: "Hariharan", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-42.mp3", imageSrc: "https://i.pinimg.com/736x/0b/9e/a1/0b9ea183c0a9d4e16423301a14d620bf.jpg" },
             { id: 43, title: "Shiv Tandav Stotram", artist: "Uma Mohan", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-43.mp3", imageSrc: "images/devotional.jpg" },
             { id: 44, title: "Gayatri Mantra", artist: "Anuradha Paudwal", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-44.mp3", imageSrc: "images/devotional.jpg" },
             { id: 45, title: "Jai Ganesh Deva", artist: "Anuradha Paudwal", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-45.mp3", imageSrc: "images/devotional.jpg" },
