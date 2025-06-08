@@ -36,7 +36,7 @@ class SongRecommender {
             
             // Party Songs
             { id: 11, title: "Badtameez Dil", artist: "Benny Dayal", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3", imageSrc: "https://i.pinimg.com/736x/c3/b6/00/c3b600356afd046eb1fd068631f4e2ce.jpg" },
-            { id: 12, title: "DJ Waley Babu", artist: "Badshah", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3", imageSrc: "images/party.jpg" },
+            { id: 12, title: "DJ Waley Babu", artist: "Badshah", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3", imageSrc: "https://i.pinimg.com/736x/1f/37/5e/1f375ecae697497544a5a9d6016fa509.jpg" },
             { id: 13, title: "Kar Gayi Chull", artist: "Badshah", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3", imageSrc: "images/party.jpg" },
             { id: 14, title: "Sooraj Dooba Hain", artist: "Arijit Singh", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3", imageSrc: "images/party.jpg" },
             { id: 15, title: "The Disco Song", artist: "Vishal Dadlani", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3", imageSrc: "images/party.jpg" },
