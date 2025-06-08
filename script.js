@@ -59,7 +59,7 @@ class SongRecommender {
             { id: 30, title: "Kal Ho Naa Ho", artist: "Sonu Nigam", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-30.mp3", imageSrc: "images/sad.jpg" },
             
             // Workout Songs
-            { id: 31, title: "Sadda Haq", artist: "Ranbir Kapoor", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-31.mp3", imageSrc: "images/workout.jpg" },
+            { id: 31, title: "Sadda Haq", artist: "Ranbir Kapoor", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-31.mp3", imageSrc: "https://i.pinimg.com/736x/6d/06/38/6d06389b40ed85976fef375593e181cd.jpg" },
             { id: 32, title: "Zinda", artist: "Siddharth Mahadevan", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-32.mp3", imageSrc: "images/workout.jpg" },
             { id: 33, title: "Malang", artist: "Ved Sharma", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-33.mp3", imageSrc: "images/workout.jpg" },
             { id: 34, title: "Brothers Anthem", artist: "Vishal Dadlani", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-34.mp3", imageSrc: "images/workout.jpg" },
