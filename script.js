@@ -25,7 +25,7 @@ class SongRecommender {
             // Romantic Songs
             { id: 1, title: "Tum Hi Ho", artist: "Arijit Singh", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", imageSrc: "https://i.pinimg.com/736x/d7/3d/7e/d73d7ead0c697367c39d5b4426a9e9e3.jpg" },
             { id: 2, title: "Tera Ban Jaunga", artist: "Akhil Sachdeva", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", imageSrc: "https://i.pinimg.com/736x/0c/d4/1d/0cd41dc9d349dafbeb663827a7620fd5.jpg" },
-            { id: 3, title: "Raabta", artist: "Arijit Singh", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", imageSrc: "images/romantic.jpg" },
+            { id: 3, title: "Raabta", artist: "Arijit Singh", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", imageSrc: "https://i.pinimg.com/736x/f0/25/8a/f0258a86a18696f3d75b189880aee77e.jpg" },
             { id: 4, title: "Pehla Nasha", artist: "Udit Narayan", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3", imageSrc: "images/romantic.jpg" },
             { id: 5, title: "Tum Se Hi", artist: "Mohit Chauhan", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3", imageSrc: "images/romantic.jpg" },
             { id: 6, title: "Mere Haath Mein", artist: "Sonu Nigam", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", imageSrc: "images/romantic.jpg" },
