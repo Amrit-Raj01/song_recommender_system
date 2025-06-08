@@ -54,7 +54,7 @@ class SongRecommender {
             { id: 25, title: "Tujhse Naraz Nahi Zindagi", artist: "Lata Mangeshkar", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-25.mp3", imageSrc: "https://i.pinimg.com/736x/48/d0/c7/48d0c76604027f7f55a5d411b7b150e5.jpg" },
             { id: 26, title: "Tere Bina Zindagi Se", artist: "Lata Mangeshkar", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-26.mp3", imageSrc: "https://i.pinimg.com/736x/57/29/e6/5729e63f5880f3cdd6e80dbb475dad66.jpg" },
             { id: 27, title: "Kabira", artist: "Tochi Raina", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-27.mp3", imageSrc: "https://i.pinimg.com/736x/15/fd/19/15fd190ca54e3fea8737be517b44d7c6.jpg" },
-            { id: 28, title: "Jeene Laga Hoon", artist: "Atif Aslam", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-28.mp3", imageSrc: "images/sad.jpg" },
+            { id: 28, title: "Jeene Laga Hoon", artist: "Atif Aslam", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-28.mp3", imageSrc: "https://i.pinimg.com/736x/cb/29/45/cb29454e4cb2f99faaaa96dfd7249dc5.jpg" },
             { id: 29, title: "Tere Liye", artist: "Lata Mangeshkar", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-29.mp3", imageSrc: "images/sad.jpg" },
             { id: 30, title: "Kal Ho Naa Ho", artist: "Sonu Nigam", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-30.mp3", imageSrc: "images/sad.jpg" },
             
