@@ -42,7 +42,7 @@ class SongRecommender {
             { id: 15, title: "The Disco Song", artist: "Vishal Dadlani", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3", imageSrc: "https://i.pinimg.com/736x/c1/75/20/c17520775a2ae475a0ee1b836ae19ad7.jpg" },
             { id: 16, title: "Bang Bang", artist: "Benny Dayal", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3", imageSrc: "https://i.pinimg.com/736x/0d/0b/fb/0d0bfbdef1e3d0a01b828f2d2f5e806c.jpg" },
             { id: 17, title: "Gandi Baat", artist: "Raftaar", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-17.mp3", imageSrc: "https://i.pinimg.com/736x/c7/87/e4/c787e4a995fa9307f8ac01f1843432d7.jpg" },
-            { id: 18, title: "Lungi Dance", artist: "Yo Yo Honey Singh", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-18.mp3", imageSrc: "images/party.jpg" },
+            { id: 18, title: "Lungi Dance", artist: "Yo Yo Honey Singh", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-18.mp3", imageSrc: "https://i.pinimg.com/736x/91/fb/f1/91fbf12b6bd98150eeab00a5e2b42956.jpg" },
             { id: 19, title: "High Heels", artist: "Yo Yo Honey Singh", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-19.mp3", imageSrc: "images/party.jpg" },
             { id: 20, title: "Party All Night", artist: "Yo Yo Honey Singh", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-20.mp3", imageSrc: "images/party.jpg" },
             
