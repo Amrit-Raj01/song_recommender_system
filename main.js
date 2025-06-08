@@ -1,6 +1,4 @@
-import BollywoodMoodApp from './bollywoodMoodApp.js';
-
-document.addEventListener('DOMContentLoaded', async () => {
-    const app = new BollywoodMoodApp();
-    await app.initialize();
+document.addEventListener('DOMContentLoaded', () => {
+    const recommender = new SongRecommender(BollywoodSongsDB);
+    new UIController(recommender);
 });
