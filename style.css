@@ -1,138 +1,328 @@
-/* Modern Bollywood Themed Styles */
-body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ff4e50, #f9d423);
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     color: #333;
 }
 
 .container {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 30px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(5px);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-h1 {
-    color: #d32f2f;
+.header {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
-}
-
-.tagline {
-    text-align: center;
-    color: #555;
     margin-bottom: 30px;
-    font-style: italic;
+    color: white;
 }
 
-/* Mood Buttons - Film Strip Effect */
-.mood-buttons {
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.search-container {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin: 30px 0;
-    flex-wrap: wrap;
-    background: url('https://i.imgur.com/JYK5QYt.png') repeat-x center;
-    padding: 20px 0;
-    background-size: contain;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-button {
-    padding: 12px 25px;
+#searchInput {
+    padding: 12px 20px;
+    width: 400px;
     border: none;
-    border-radius: 50px;
-    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#searchBtn {
+    padding: 12px 20px;
+    background: #ff6b6b;
     color: white;
-    font-weight: 600;
+    border: none;
+    border-radius: 25px;
     cursor: pointer;
-    font-size: 1rem;
-    transition: all 0.3s;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    min-width: 120px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+#searchBtn:hover {
+    background: #ff5252;
+    transform: translateY(-2px);
 }
 
-/* Song Cards - Film Poster Style */
-.song-list {
+.category-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.category-btn {
+    padding: 12px 24px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.category-btn:hover, .category-btn.active {
+    background: rgba(255,255,255,0.9);
+    color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.stats-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card i {
+    font-size: 2rem;
+    color: #667eea;
+    margin-bottom: 10px;
+}
+
+.stat-card span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.stat-card p {
+    color: #666;
+    font-weight: 500;
+}
+
+.songs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
 }
 
 .song-card {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: all 0.3s;
+    background: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
     position: relative;
+    overflow: hidden;
 }
 
 .song-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
 }
 
-.song-poster {
-    height: 150px;
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+.song-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.song-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.song-info p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.category-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #667eea;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.fav-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(255,255,255,0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.fav-btn:hover {
+    background: #ff6b6b;
     color: white;
-    font-size: 3rem;
+    transform: scale(1.1);
 }
 
-.song-info {
-    padding: 15px;
+.fav-btn.favorite {
+    background: #ff6b6b;
+    color: white;
 }
 
-.song-title {
-    font-weight: 700;
-    margin: 0 0 5px 0;
-    color: #d32f2f;
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
 }
 
-.song-movie {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 8px;
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 0;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    animation: modalSlideIn 0.3s ease;
 }
 
-.song-year {
-    display: inline-block;
-    background: #f8f8f8;
-    padding: 3px 8px;
+@keyframes modalSlideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 1001;
+}
+
+.close:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+
+#modalImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 10px;
-    font-size: 0.8rem;
 }
 
-/* Responsive Design */
+.modal-info {
+    flex: 1;
+}
+
+.modal-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.modal-info p {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.modal-info .fav-btn {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.no-results {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
 @media (max-width: 768px) {
     .container {
-        margin: 15px;
+        padding: 10px;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    #searchInput {
+        width: 250px;
+    }
+    
+    .category-nav {
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+    
+    .category-btn {
+        white-space: nowrap;
+    }
+    
+    .modal-body {
+        flex-direction: column;
         padding: 20px;
     }
     
-    .mood-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    button {
+    #modalImage {
         width: 100%;
+        height: 250px;
     }
 }
