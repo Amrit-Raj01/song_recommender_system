@@ -80,7 +80,7 @@ class SongRecommender {
             { id: 47, title: "Vaishnav Jan To", artist: "K.S. Chithra", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-47.mp3", imageSrc: "https://i.pinimg.com/736x/42/5c/92/425c92b44078140e32814bb5a11c0cbf.jpg" },
             { id: 48, title: "Shree Krishna Govind", artist: "Anuradha Paudwal", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-48.mp3", imageSrc: "https://i.pinimg.com/736x/0a/b9/4a/0ab94a342bcad25131c2fec3daa6b0d5.jpg" },
             { id: 49, title: "Jai Santoshi Maa", artist: "Anuradha Paudwal", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-49.mp3", imageSrc: "https://i.pinimg.com/736x/90/2b/c3/902bc3cab25113d1cdf757d2d0cdfeb6.jpg" },
-            { id: 50, title: "Durga Chalisa", artist: "Anuradha Paudwal", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-50.mp3", imageSrc: "images/devotional.jpg" }
+            { id: 50, title: "Durga Chalisa", artist: "Anuradha Paudwal", category: "devotional", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-50.mp3", imageSrc: "https://i.pinimg.com/736x/56/d2/68/56d2683a303cf0eaa7195fabae15d121.jpg" }
         ];
     }
     
