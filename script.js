@@ -48,7 +48,7 @@ class SongRecommender {
             
             // Sad Songs
             { id: 21, title: "Channa Mereya", artist: "Arijit Singh", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-21.mp3", imageSrc: "https://i.pinimg.com/736x/df/9e/c0/df9ec020dfb73812526e495afa4d2ae8.jpg" },
-            { id: 22, title: "Tum Ho", artist: "Mohit Chauhan", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-22.mp3", imageSrc: "images/sad.jpg" },
+            { id: 22, title: "Tum Ho", artist: "Mohit Chauhan", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-22.mp3", imageSrc: "https://i.pinimg.com/736x/29/ce/5f/29ce5fe316c5607c6c264d3faf382c88.jpg" },
             { id: 23, title: "Phir Bhi Tumko Chaahunga", artist: "Arijit Singh", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-23.mp3", imageSrc: "images/sad.jpg" },
             { id: 24, title: "Agar Tum Saath Ho", artist: "Alka Yagnik", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-24.mp3", imageSrc: "images/sad.jpg" },
             { id: 25, title: "Tujhse Naraz Nahi Zindagi", artist: "Lata Mangeshkar", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-25.mp3", imageSrc: "images/sad.jpg" },
