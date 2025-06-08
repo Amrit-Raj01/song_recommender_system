@@ -56,7 +56,7 @@ class SongRecommender {
             { id: 27, title: "Kabira", artist: "Tochi Raina", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-27.mp3", imageSrc: "https://i.pinimg.com/736x/15/fd/19/15fd190ca54e3fea8737be517b44d7c6.jpg" },
             { id: 28, title: "Jeene Laga Hoon", artist: "Atif Aslam", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-28.mp3", imageSrc: "https://i.pinimg.com/736x/cb/29/45/cb29454e4cb2f99faaaa96dfd7249dc5.jpg" },
             { id: 29, title: "Tere Liye", artist: "Lata Mangeshkar", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-29.mp3", imageSrc: "https://i.pinimg.com/736x/95/c5/d7/95c5d78742b87968d87353ba83166432.jpg" },
-            { id: 30, title: "Kal Ho Naa Ho", artist: "Sonu Nigam", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-30.mp3", imageSrc: "images/sad.jpg" },
+            { id: 30, title: "Kal Ho Naa Ho", artist: "Sonu Nigam", category: "sad", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-30.mp3", imageSrc: "https://i.pinimg.com/736x/b6/b3/df/b6b3df53c5034197b1c0ab3f9d89d0b5.jpg" },
             
             // Workout Songs
             { id: 31, title: "Sadda Haq", artist: "Ranbir Kapoor", category: "workout", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-31.mp3", imageSrc: "https://i.pinimg.com/736x/6d/06/38/6d06389b40ed85976fef375593e181cd.jpg" },
