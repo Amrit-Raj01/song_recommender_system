@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bollywood Mood Magic</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -15,23 +16,34 @@
 
         <div class="controls">
             <div class="mood-buttons">
+                <button class="mood-btn active" data-mood="all">🎵 All Songs</button>
                 <button class="mood-btn" data-mood="happy">😊 Happy</button>
                 <button class="mood-btn" data-mood="sad">😢 Sad</button>
                 <button class="mood-btn" data-mood="romantic">❤️ Romantic</button>
                 <button class="mood-btn" data-mood="energetic">⚡ Energetic</button>
-                <button class="random-btn">🎲 Random Song</button>
             </div>
             
-            <div class="search">
+            <div class="search-box">
                 <input type="text" id="search-input" placeholder="Search songs, movies or singers...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
             </div>
         </div>
 
         <div id="stats" class="stats"></div>
         
-        <div id="results" class="results"></div>
+        <div id="results" class="results">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading songs...</p>
+            </div>
+        </div>
     </div>
 
-    <script src="src/app/main.js" type="module"></script>
+    <audio id="audio-player" hidden></audio>
+
+    <script src="scripts/database.js"></script>
+    <script src="scripts/recommender.js"></script>
+    <script src="scripts/uiController.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
