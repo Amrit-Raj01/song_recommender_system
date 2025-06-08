@@ -35,7 +35,7 @@ class SongRecommender {
             { id: 10, title: "Mere Bina", artist: "Pritam", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3", imageSrc: "https://i.pinimg.com/736x/3c/f4/2a/3cf42ad5bcbc67e57140d22ae7b1c81c.jpg" },
             
             // Party Songs
-            { id: 11, title: "Badtameez Dil", artist: "Benny Dayal", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3", imageSrc: "images/party.jpg" },
+            { id: 11, title: "Badtameez Dil", artist: "Benny Dayal", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3", imageSrc: "https://i.pinimg.com/736x/c3/b6/00/c3b600356afd046eb1fd068631f4e2ce.jpg" },
             { id: 12, title: "DJ Waley Babu", artist: "Badshah", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3", imageSrc: "images/party.jpg" },
             { id: 13, title: "Kar Gayi Chull", artist: "Badshah", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3", imageSrc: "images/party.jpg" },
             { id: 14, title: "Sooraj Dooba Hain", artist: "Arijit Singh", category: "party", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3", imageSrc: "images/party.jpg" },
