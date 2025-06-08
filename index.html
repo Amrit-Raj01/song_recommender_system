@@ -3,72 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hindi Song Recommender</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>BollyBeats - Hindi Song Recommender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <h1><i class="fas fa-music"></i> Hindi Song Recommender</h1>
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search songs, artists, or categories...">
-                <button id="searchBtn"><i class="fas fa-search"></i></button>
+        <header>
+            <div class="logo">
+                <i class="fas fa-music"></i>
+                <h1>BollyBeats</h1>
             </div>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search songs...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <button id="show-favorites"><i class="fas fa-heart"></i> Favorites</button>
         </header>
 
-        <nav class="category-nav">
-            <button class="category-btn active" data-category="all">All Songs</button>
-            <button class="category-btn" data-category="romantic">Romantic</button>
-            <button class="category-btn" data-category="sad">Sad</button>
-            <button class="category-btn" data-category="party">Party</button>
-            <button class="category-btn" data-category="devotional">Devotional</button>
-            <button class="category-btn" data-category="classical">Classical</button>
-            <button class="category-btn" data-category="favorites">Favorites</button>
-        </nav>
-
-        <div class="stats-container">
-            <div class="stat-card">
-                <i class="fas fa-music"></i>
-                <span id="totalSongs">35</span>
-                <p>Total Songs</p>
-            </div>
-            <div class="stat-card">
-                <i class="fas fa-heart"></i>
-                <span id="totalFavorites">0</span>
-                <p>Favorites</p>
-            </div>
-            <div class="stat-card">
-                <i class="fas fa-list"></i>
-                <span>5</span>
-                <p>Categories</p>
+        <div class="hero">
+            <h2>Discover Perfect Songs For Every Mood</h2>
+            <div class="category-buttons">
+                <button class="active" data-category="all">All</button>
+                <button data-category="romantic">Romantic</button>
+                <button data-category="party">Party</button>
+                <button data-category="sad">Sad</button>
+                <button data-category="workout">Workout</button>
+                <button data-category="devotional">Devotional</button>
             </div>
         </div>
 
-        <div class="songs-container" id="songsContainer">
-            <!-- Songs will be dynamically loaded here -->
+        <div class="songs-grid" id="songs-container">
+            <!-- Songs will load here -->
         </div>
 
-        <div class="modal" id="songModal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div class="modal-body">
-                    <img id="modalImage" src="" alt="Song Image">
-                    <div class="modal-info">
-                        <h2 id="modalTitle"></h2>
-                        <p id="modalArtist"></p>
-                        <p id="modalCategory"></p>
-                        <p id="modalYear"></p>
-                        <button id="modalFavBtn" class="fav-btn">
-                            <i class="far fa-heart"></i> Add to Favorites
-                        </button>
-                    </div>
+        <div class="player" id="player">
+            <div class="player-info">
+                <img id="now-playing-img" src="" alt="Now Playing">
+                <div>
+                    <h3 id="now-playing-title">Select a song</h3>
+                    <p id="now-playing-artist"></p>
                 </div>
             </div>
+            <audio id="audio" controls></audio>
+            <button id="player-fav-btn"><i class="far fa-heart"></i></button>
         </div>
     </div>
 
-    <script src="SongRecommender.js"></script>
-    <script src="app.js"></script>
+    <div class="modal" id="favorites-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Favorite Songs</h2>
+            <div id="favorites-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
