@@ -23,7 +23,7 @@ class SongRecommender {
     loadSongs() {
         return [
             // Romantic Songs
-            { id: 1, title: "Tum Hi Ho", artist: "Arijit Singh", category: "romantic", audioSrc: "", imageSrc: "https://i.pinimg.com/736x/d7/3d/7e/d73d7ead0c697367c39d5b4426a9e9e3.jpg" },
+            { id: 1, title: "Tum Hi Ho", artist: "Arijit Singh", category: "romantic", audioSrc: ""C:\Users\Admin\Downloads\128-Tum Hi Ho - Aashiqui 2 128 Kbps.mp3"", imageSrc: "https://i.pinimg.com/736x/d7/3d/7e/d73d7ead0c697367c39d5b4426a9e9e3.jpg" },
             { id: 2, title: "Tera Ban Jaunga", artist: "Akhil Sachdeva", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", imageSrc: "https://i.pinimg.com/736x/0c/d4/1d/0cd41dc9d349dafbeb663827a7620fd5.jpg" },
             { id: 3, title: "Raabta", artist: "Arijit Singh", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", imageSrc: "https://i.pinimg.com/736x/f0/25/8a/f0258a86a18696f3d75b189880aee77e.jpg" },
             { id: 4, title: "Pehla Nasha", artist: "Udit Narayan", category: "romantic", audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3", imageSrc: "https://i.pinimg.com/736x/6e/b3/a0/6eb3a04918759e38125702e0b53cce2c.jpg" },
